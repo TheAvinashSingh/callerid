@@ -12,12 +12,12 @@ Instructions to Test API
 > Preferred is Postman to Test the API. I consider you have it preinstalled.
 
 ###Sign Up
-``` 
+```
 Route: 'http://localhost:8000/signup/'
-Request Method: POST	
+Request Method: POST
 ```
 Body:
-```json
+```
 {
 	'username': 'john',
 	'password': 'john',
@@ -32,9 +32,9 @@ Example: `eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NCwidXNlcm5hbWUiOiJyaXNoY
 ```
 Route: 'http://localhost:8000/signin/'
 Request Method: POST
-``` 
+```
 Body:
-```json
+```
 {
 	'username': 'john',
 	'password': 'john'
@@ -53,8 +53,8 @@ Route: 'http://localhost:8000/mark_spam/'
 Request Method: POST
 ```
 Body:
-```json
-{ 
+```
+{
 	'phone': '7878787878'
 }
 ```
