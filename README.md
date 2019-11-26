@@ -8,10 +8,10 @@ Instructions to Test API
 ### Start the Server
 `python3 manage.py runserver`
 
-##Testing
+## Testing
 > Preferred is Postman to Test the API. I consider you have it preinstalled.
 
-###Sign Up
+### Sign Up
 ```
 Route: 'http://localhost:8000/signup/'
 Request Method: POST
